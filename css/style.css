@@ -1,82 +1,93 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
-  background-color: #4499cc;
-  color: #444444;
+  background-color: #49c;
+  color: #444;
 }
 
 header {
-  height:74px;
-  background-color: #4499cc
+  height: 74px;
+  background-color: #49c;
 }
 
-h2, h3{
-  color: #4499cc
+h2, h3 {
+  color: #49c;
 }
 
 h1 {
   font-size: 26px;
   line-height: 74px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
+  text-align: center;
 }
 
 h2 {
-  border-bottom: 1px solid #4499cc;
+  border-bottom: 1px solid #49c;
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 24px;
 }
 
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 a {
-  color: #4499cc;
-  text-decoration:underline;
+  color: #49c;
+  text-decoration: underline;
 }
 
 p {
-  margin-bottom: 24px
+  margin-bottom: 24px;
 }
 
-div.container {
+.container {
   width: 480px;
   margin: auto;
 }
 
 main {
-  background-color: #ffffff;
-  padding: 24px 0px;
+  background-color: #fff;
+  padding: 24px 0;
 }
 
-ul.usrs {
-  overflow: hidden
-}
-ul.usrs li {
+.users {
   overflow: hidden;
-  margin-bottom: 24px
 }
-ul.usrs img
-{
+
+.users li {
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.users img {
   border-radius: 32px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   height: 64px;
   width: 64px;
   float: left;
-  background-color: #ffffff;
+  background-color: #fff;
 }
-ul.usrs h3, ul.usrs span {
+
+.users h3, .users span {
   margin-left: 76px;
 }
-ul.usrs span {
+
+.users span {
   display: block;
   line-height: 30px;
 }
 
-footer{
+footer {
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   line-height: 36px;
 }
-footer span {
+
+footer a {
   color: #fafafa;
+  text-decoration: none;
 }
